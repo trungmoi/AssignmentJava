@@ -1,0 +1,55 @@
+
+img{
+   width: 200px;
+}
+a{
+    font-variant: small-caps;
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+}
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: red;
+}
+.trangchu{
+    border: 2px solid red;
+    height: 3%;
+    background: rgb(211, 97, 211);
+}
+.cot{
+    width: 25%;
+    float: left;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.cot .sanpham:hover{
+    box-shadow: 35px 35px 35px skyblue;
+}
+.sanpham .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.sanpham img{
+    max-width: 95%;
+}
+.sanpham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.sanpham .gia del{
+    color: gray;
+}

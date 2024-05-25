@@ -1,0 +1,16 @@
+
+
+p>img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 5px navy;
+}
+p>img:hover{
+    box-shadow: 3px 5px red;
+    background-color: aqua;
+}

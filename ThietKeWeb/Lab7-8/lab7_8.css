@@ -1,0 +1,93 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: aqua;
+    padding-bottom: 25%;
+    background-image: url(img/xbanner--lien-he-moi.jpg.pagespeed.ic_.fqvwhe7pcx.jpg);
+    background-size: 100%;
+    position: relative;
+}
+nav{
+    background-color: rgb(238, 243, 243);
+    height: 50px;
+}
+nav a{
+    color:black;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+nav a:hover{
+    color: chocolate;
+    background-color: white;
+}
+nav a:visited{
+    color: blueviolet;
+}
+article{
+    width: 70%;
+    height: 400px;
+    background-color: chartreuse;
+    float: left;
+}
+aside{
+    width: 30%;
+    height: 400px;
+    background-color: yellow;
+    float: right;
+}
+footer{
+    height: 50px;
+    background-color: cadetblue;
+    clear: both; 
+    border: 5px double red; 
+
+}
+header img{
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-variant: small-caps;
+    padding: 0 15px;
+}
+.menu a :hover{
+    color: brown;
+    background-color: white;
+}
+.menu3{
+  box-shadow: 0 0 5px red;
+  border-radius: 10px;
+  min-height: 300px;
+  list-style-type: none ;
+}
+.menu3 a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 25px;
+    background: url(img/chamtron.png) no-repeat left;
+    background-size: 15px;
+    padding-left: 25px;
+    border-bottom: 1px dotted red;
+    display: block;
+}
+.menu3 a:hover{
+    background: url(img/check.png) no-repeat left; 
+    background-size: 15px;
+    background-color: rgb(210, 30, 99);
+    font-weight: bold;
+    color: yellowgreen;
+}

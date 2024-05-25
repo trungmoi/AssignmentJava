@@ -1,0 +1,166 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(img/Screenshot\ 2024-05-25\ 000135.png);
+    height: 231px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header img{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    height: 20%;
+
+}
+
+.menu{
+    min-height: 40px;
+    background-color: rgb(5, 58, 103);
+}
+
+.menu ul{
+    list-style: none;
+    background-color:  rgb(5, 58, 103);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: whitesmoke;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.menu ul ul li{
+    display: block;
+    position: relative;
+}
+
+.menu ul ul a{
+    display: block;
+    color: rgb(194, 23, 23);
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 0 10px;
+    line-height: 30px;
+    z-index: 1000;
+
+}
+.menu ul li a:hover{
+    background-color: brown;
+    color: whitesmoke;
+    text-shadow: 0 0 3px red;
+}
+
+.menu ul ul a:hover{
+    color: whitesmoke;
+    background-color: rgb(5, 58, 103) ;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+marquee{
+    line-height: 25px;
+    min-height: 25px;
+    z-index: -1;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    margin-bottom: 10px;
+}
+
+.content article{
+    width: 75%;
+    float: left;
+    background-color: lightblue;
+    min-height: 800px;
+}
+.content article iframe[name = page]{
+   width: 100%;
+   height: 800px;
+}
+
+.content aside{
+    width: 25%;
+    float: right;
+    background-color: lightgoldenrodyellow ;
+    min-height: 800px;
+}
+
+.lichlv .widthR{
+    width: 100%;
+}
+.lichlv ul {
+    list-style: none;
+
+}
+
+.lichlv ul a{
+    display: block;
+    background-image: url(img/check.png);
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.lichlv ul a:hover{
+    color: slategrey;
+    text-shadow: 0 0 2px red;
+    background-image: url(img/next.png);
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.widthR img{
+   width: 100%;
+   padding: 10px 0;
+}
+
+.widthR img:hover{
+    box-shadow: 0 2px 2px gray;
+}
+
+footer{
+   clear: both;
+   min-height: 50px;
+   background-color: lightgray;
+   text-align: center;
+   line-height: 50px; 
+   border-top: 1px dotted lightblue;
+}

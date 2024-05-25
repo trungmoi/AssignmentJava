@@ -1,0 +1,62 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#container header{
+   height: 0px;
+   background-color: aqua;
+   padding-bottom: 25%;
+   background-image: url(img/xbanner-trang-lien-he-moi.jpg.pagespeed.ic_.fqvwhe7pcx.jpg);
+   background-size: 100%;
+}
+nav{
+   height: 50px;
+   background-color: brown;
+   text-align: center;
+   line-height: 50px;
+}
+article{
+   width: 70%;
+   height: 400px;
+   background-color: yellowgreen;
+   float: left;
+}
+nav a{
+    color:black;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+nav a:hover{
+    color: chocolate;
+    background-color: white;
+}
+nav a:visited{
+    color: blueviolet;
+}
+aside{
+    width: 30%;
+    height: 400px;
+    background-color: darksalmon;
+    float: right;
+}
+footer{
+   height: 50px;
+   background-color: cadetblue;
+   clear: both;
+   border: 5px double red;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+/*.Menu1{
+    float: left;
+}
+.Menu2{
+    float: right;
+}/*

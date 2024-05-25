@@ -1,0 +1,30 @@
+.cot{
+    width: 25%;
+    float: left;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.cot .sanpham:hover{
+    box-shadow: 0 0 10px red;
+}
+.sanpham .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.sanpham img{
+    max-width: 95%;
+}
+.sanpham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.sanpham .gia del{
+    color: gray;
+}

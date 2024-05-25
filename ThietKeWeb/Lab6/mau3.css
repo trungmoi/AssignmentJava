@@ -1,0 +1,34 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#container header{
+   height: 0px;
+   background-color: aqua;
+   padding-bottom: 25%;
+   
+}
+.noidung{
+    display: flex;
+}
+nav{
+   height: 50px;
+   background-color: brown;
+}
+article{
+   width: 70%;
+   height: 400px;
+   background-color: yellowgreen;
+   float: left;
+}
+aside{
+    width: 30%;
+    height: 400px;
+    background-color: darkmagenta;
+}
+footer{
+   height: 50px;
+   background-color: cadetblue;
+   
+}
